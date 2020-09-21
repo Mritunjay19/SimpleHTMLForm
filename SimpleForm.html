@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+        <title>Experiment1</title>
+        <link rel="stylesheet" type="text/css" href="CSS.css">
+        
+        <script src="JavaScript.js"></script>
+    </head>
+    <body>
+        <header><img src="html5.gif" alt="html5" title="HTML5">
+            <h1>Hello Guys !! Please Enter your Information </h1></header>
+        <form name="Personalinfo" action="Submitted.html" onsubmit="return validate(6);"><table>
+            <tr><td class="c2">First Name:</td>
+                <td class="c1"><input type="text" id="fname" name="fname" onblur="validate(1);">
+                <span id="s_fname"></span></td></tr>
+            <tr><td class="c2">Last Name:</td>
+                <td class="c1"><input type="text" id="lname" name="lname" onblur="validate(2);">
+                <span id="s_lname"></span></td></tr>
+            <tr><td class="c2">Email ID:</td>
+                <td class="c1"><input type="text" id="eid" name="Email" onblur="validate(3);">
+                <span id="s_eid"></span></td></tr>
+            <tr><td class="c2">Mobile Number:</td>
+                <td class="c1"><input type="tel" id="phno" maxlength="10" name="phno" onblur="validate(4);">
+                <span id="s_phno"></span></td></tr>
+            <tr><td class="c2">Gender:</td>
+                <td class="c1"><input type="radio" id="gender" name="gender" checked>Male<input type="radio" name="gender">Female</td></tr>
+            <tr><td class="c2">Date of Birth:</td>
+                <td class="c1"><input type="date" id="dob" value="2020-05-06" name="dob"></td></tr>
+            <tr><td class="c2">Known Languages:</td>
+                <td class="c1"><input type="checkbox" id="language1" name="language">Hindi<input type="checkbox" id="language2" name="language">English<input type="checkbox" id="language3" name="language">Russian
+                    <input type="checkbox" id="language4" name="language">French</td></tr>
+            <tr><td colspan="3" style="text-align: center;">
+                <button>Submit</button></td></tr>
+        </table></form>
+    </body>
+</html>

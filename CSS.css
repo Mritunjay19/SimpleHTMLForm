@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 4vw;
+}
+header{
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    height: 10vw;
+    vertical-align: middle;
+    text-align: center;
+    background-color: lightgrey;
+}
+img{
+    height: 10vw;
+    width: 10vw;
+    float: left;
+}
+table{
+    font-style: italic;
+    margin-top: 5vw;
+    background-color: lightsteelblue;
+    font-size: 17px;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+td{
+    padding: 1vw;
+}
+td.c1{
+    padding-left: 8vw;
+text-align: left;
+}
+td.c2{
+    text-align: right;
+}
+button{
+    font-size: 17px;
+}
